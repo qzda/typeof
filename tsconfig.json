@@ -3,7 +3,9 @@
     "declaration": true,
     "declarationDir": "dist",
     "target": "ES2015",
-    "outDir": "dist"
+    "outDir": "dist",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext"
   },
   "files": ["./index.ts"]
 }

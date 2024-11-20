@@ -5,23 +5,29 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "bun run index.test.ts"
+    "test": "bun run index.test.ts",
+    "p": "npm run build && npm publish",
+    "p:dry": "npm run build && npm publish --dry-run"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/qzda/typeof.git"
-  },
-  "devDependencies": {
-    "@types/bun": "^1.1.13",
-    "typescript": "^5.5.4"
+    "url": "git+https://github.com/qzda/typeof.git"
   },
   "keywords": [
     "typeof"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "qzda <qinzhidaoa@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qzda/typeof/issues"
   },
-  "homepage": "https://github.com/qzda/typeof#readme"
+  "homepage": "https://github.com/qzda/typeof#readme",
+  "devDependencies": {
+    "bun-types": "^1.1.36",
+    "typescript": "^5.5.4",
+    "undici-types": "^6.21.0"
+  }
 }
