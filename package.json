@@ -1,0 +1,27 @@
+{
+  "name": "@qzda/typeof",
+  "version": "0.0.1",
+  "description": "A utility function that accepts any type and returns its type as a string",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun run index.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qzda/typeof.git"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [
+    "typeof"
+  ],
+  "author": "qzda <qinzhidaoa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qzda/typeof/issues"
+  },
+  "homepage": "https://github.com/qzda/typeof#readme"
+}
